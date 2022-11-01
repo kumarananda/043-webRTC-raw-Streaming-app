@@ -1,0 +1,73 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.meet_aria{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+#main_screen{
+    width: 1200px;
+    height: 600px;
+    position: relative;
+    background-color: #333;
+
+}
+
+
+.controls{
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    bottom: 30px;
+    text-align: center;
+
+}
+.controls button {
+    height: 40px;
+    width: 40px;
+    color: aliceblue;
+    background-color: chocolate;
+    font-size: 20px;
+    border-radius: 50%;
+    cursor: pointer;
+    border: none;
+    margin-right: 5px;
+    transition:  .3s;
+}
+.controls button:hover {
+    background-color: rgb(108, 30, 210);
+}
+.controls button.active {
+    background-color: white;
+    color: rgb(108, 30, 210);
+}
+.screen-02{
+    height: auto;
+    width: 200px;
+    border-radius: 10px;
+    position: absolute;
+    top: 20px;
+    right:  10px;
+
+
+}
+
+#screen-01{
+    height: 100%;
+    width:  100%;
+    overflow: hidden;
+}
+
+.d-block {
+    display: block;
+}
+.d-none {
+    display: none;
+}
